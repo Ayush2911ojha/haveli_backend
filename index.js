@@ -1,27 +1,21 @@
-const express = require('express')
-const mongoose = require('mongoose')
-const cors = require('cors')
-const { loginUser } = require('./controllers/auth')
-const { createUser } = require('./controllers/auth')
-const app = express()
+const express = require('express');
+const connectDB = require('./config/db');
 
+const app = express();
+const port = 8080;
 
+// Connect to database
+connectDB();
 
+// Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-app.use(cors())
-app.use(express.json()) 
+// Routes
+app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api/bookings', require('./routes/bookingRoute'));
+app.use('/api/hotels', require('./routes/hotelRoute'));
 
-
-app.post('/signUp', createUser);
-
-main().catch(err => console.log(err))
-async function main () {
-    await mongoose.connect('mongodb://127.0.0.1:27017/haveli24')
-  console.log('db connected')
-}
-
-
-
-app.listen(8080, () => {
-  console.log('server is running  ')
-})
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});

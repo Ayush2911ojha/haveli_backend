@@ -1,0 +1,124 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "viraz hotel",
+      "mainImage": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
+      "details": "This is a luxurious hotel located in the city center.",
+      "facilities": {
+        "rooms": "Spacious rooms with king-size beds",
+        "washroom": "Modern washrooms with hot water 24/7"
+      },
+      "moreImages": [
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc=",
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc="
+      ],
+      "pricing": 150
+    },
+    {
+      "id": 2,
+      "name": "Barcelona hotel",
+      "mainImage": "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc=",
+      "details": "A cozy hotel with beautiful surroundings.",
+      "facilities": {
+        "rooms": "Comfortable rooms with queen-size beds",
+        "washroom": "Clean washrooms with all amenities"
+      },
+      "moreImages": [
+        "https://example.com/image5.jpg",
+        "https://example.com/image6.jpg"
+      ],
+      "pricing": 100
+    },
+    {
+      "id": 3,
+      "name": "Weekend hotel",
+      "mainImage": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
+      "details": "This is a luxurious hotel located in the city center.",
+      "facilities": {
+        "rooms": "Spacious rooms with king-size beds",
+        "washroom": "Modern washrooms with hot water 24/7"
+      },
+      "moreImages": [
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc=",
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc="
+      ],
+      "pricing": 150
+    },
+    {
+      "id": 4,
+      "name": "trioZ hotel",
+      "mainImage": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
+      "details": "This is a luxurious hotel located in the city center.",
+      "facilities": {
+        "rooms": "Spacious rooms with king-size beds",
+        "washroom": "Modern washrooms with hot water 24/7"
+      },
+      "moreImages": [
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc=",
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc="
+      ],
+      "pricing": 150
+    },
+    {
+      "id": 5,
+      "name": "Chitakara hotel",
+      "mainImage": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
+      "details": "This is a luxurious hotel located in the city center.",
+      "facilities": {
+        "rooms": "Spacious rooms with king-size beds",
+        "washroom": "Modern washrooms with hot water 24/7"
+      },
+      "moreImages": [
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc=",
+        "https://media.istockphoto.com/id/1453121684/photo/modern-hotel-room-with-double-bed-night-tables-and-day-sofa-bed.webp?b=1&s=170667a&w=0&k=20&c=0MGlloRKwQjR_xeIt0s0IklHyt2bQHDNoFvKml3BQPc="
+      ],
+      "pricing": 150
+    }
+  ],
+  "users": [
+    {
+      "id": "82de",
+      "username": "ayushchef2911",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "chef@123"
+    },
+    {
+      "id": "47f2",
+      "username": "Admin",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "Admin@123"
+    },
+    {
+      "id": "8a74",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "Admin@123"
+    },
+    {
+      "id": "a18d",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "chef@123"
+    },
+    {
+      "id": "1eb4",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "chef@123"
+    },
+    {
+      "id": "a17c",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "chef@123"
+    },
+    {
+      "id": "d1fc",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "chef@123"
+    },
+    {
+      "id": "878e",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "chef@123"
+    }
+  ],
+  "login": {}
+}

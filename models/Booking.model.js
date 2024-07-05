@@ -1,45 +1,34 @@
-// models/Booking.js
 const mongoose = require('mongoose');
 
-const BookingSchema = new mongoose.Schema({
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'User',
-        required: true
+const bookingSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true,
     },
-    hotel: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Hotel',
-        required: true
+    email: {
+        type: String,
+        required: true,
     },
     checkInDate: {
         type: Date,
-        required: true
+        required: true,
     },
     checkOutDate: {
         type: Date,
-        required: true
+        required: true,
     },
     roomType: {
         type: String,
-        required: true
+        enum: ['single', 'double', 'suite'],
+        default: 'single',
+        required: true,
     },
     numberOfGuests: {
         type: Number,
-        required: true
-    },
-    price: {
-        type: Number,
-        required: true
-    },
-    roomNumber: {
-        type: String,
-        required: true
-    },
-    location: {
-        type: String,
-        required: true
+        required: true,
     }
-});
+}, { timestamps: true });
 
-module.exports = mongoose.model('Booking', BookingSchema);
+const Booking = mongoose.model('Booking', bookingSchema);
+
+module.exports = Booking;
